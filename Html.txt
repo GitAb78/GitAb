@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GITAB Global | Food, FMCG & Apparel Market Entry</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fb;
+        }
+        /* Custom Colors tailored for Food & Fashion emphasis */
+        .text-primary { color: #8a2be2; } /* A deep, rich Violet for premium feel */
+        .bg-primary { background-color: #8a2be2; }
+        .bg-accent { background-color: #ffc107; } /* Retaining vibrant yellow for CTA */
+        .border-accent { border-color: #ffc107; }
+        .shadow-custom { box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); }
+
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(138, 43, 226, 0.15); /* Soft shadow shift on hover */
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header / Navigation -->
+    <header class="bg-white shadow-lg sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="text-2xl font-extrabold text-gray-900">
+                <span class="text-primary">GITA</span>B Global
+            </div>
+            <nav class="hidden md:flex space-x-8 text-gray-600 font-medium">
+                <a href="#about" class="hover:text-primary transition duration-300">Why India?</a>
+                <a href="#specialization" class="hover:text-primary transition duration-300">Specialization</a>
+                <a href="#services" class="hover:text-primary transition duration-300">Solutions</a>
+                <a href="#contact" class="hover:text-primary transition duration-300">Get Started</a>
+            </nav>
+            <button class="md:hidden text-gray-700 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="py-20 sm:py-32 bg-gray-50 text-center">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-gray-900 leading-tight">
+                Mastering India's <span class="text-primary">Food & Apparel</span> Markets
+            </h1>
+            <p class="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
+                GITAB Global is the strategic partner for international Food and Clothing brands, providing deep compliance, taste adaptation, and trend-focused market entry across India.
+            </p>
+            <div class="mt-10 flex justify-center space-x-4">
+                <a href="#contact" class="px-8 py-3 bg-primary text-white font-bold rounded-full transition duration-300 transform hover:scale-105 hover:bg-violet-700 shadow-xl">
+                    Launch Your Brand Now
+                </a>
+                <a href="#services" class="px-8 py-3 bg-white text-primary border-2 border-primary font-bold rounded-full transition duration-300 transform hover:bg-primary hover:text-white shadow-lg">
+                    See Our Solutions
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why India/About Section -->
+    <section id="about" class="py-16 sm:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                 <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 border-b-4 border-accent pb-2 inline-block">
+                    The Billion-Consumer Opportunity
+                </h2>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-custom card-hover transition duration-300">
+                    <h3 class="text-xl font-bold text-primary mb-2">Food & FMCG Dynamics</h3>
+                    <p class="text-gray-600">The Indian middle class is rapidly adopting premium, packaged, and international food items. We navigate the FSSAI regulatory landscape and ensure product formulation suits regional dietary preferences.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-custom card-hover transition duration-300">
+                    <h3 class="text-xl font-bold text-primary mb-2">Apparel & Fashion Velocity</h3>
+                    <p class="text-gray-600">India is driven by seasonal festivals and rapid digital commerce growth. We specialize in localized sizing, supply chain optimization, and D2C strategies to capture fast-moving trends.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-custom card-hover transition duration-300">
+                    <h3 class="text-xl font-bold text-primary mb-2">Unmatched Consumer Diversity</h3>
+                    <p class="text-gray-600">With 28 states and countless languages, successful entry requires hyper-localization. Our model ensures your brand adapts seamlessly, from pricing tiers to marketing visuals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialization Section: Specific Niches -->
+    <section id="specialization" class="py-16 sm:py-24 bg-primary text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl font-extrabold mb-12">
+                Specialized Solutions for Your Industry
+            </h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                <!-- Food Focus -->
+                <div class="bg-white text-gray-800 p-8 rounded-xl shadow-lg transition duration-300 hover:scale-[1.02]">
+                    <div class="flex items-center justify-center mb-4">
+                        <svg class="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <h3 class="text-2xl font-bold text-gray-900 ml-3">Food & FMCG</h3>
+                    </div>
+                    <ul class="text-left space-y-3 mt-4 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 font-bold text-xl">&#x2713;</span>
+                            **FSSAI & Regulatory Approval:** Streamlining all critical import and safety clearances.
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 font-bold text-xl">&#x2713;</span>
+                            **Taste Adaptation:** Advisory on modifying flavors and ingredients for Indian palates.
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 font-bold text-xl">&#x2713;</span>
+                            **Cold Chain Logistics:** Secure and optimized distribution network for perishables.
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 font-bold text-xl">&#x2713;</span>
+                            **Regional Retail Placement:** Targeting hyper-local distribution and modern trade channels.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Apparel Focus -->
+                <div class="bg-white text-gray-800 p-8 rounded-xl shadow-lg transition duration-300 hover:scale-[1.02]">
+                    <div class="flex items-center justify-center mb-4">
+                        <svg class="w-10 h-10 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h10m0 0v10m0-10l-6 6M7 7l6 6"></path></svg>
+                        <h3 class="text-2xl font-bold text-gray-900 ml-3">Apparel & Retail</h3>
+                    </div>
+                    <ul class="text-left space-y-3 mt-4 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-red-500 mr-2 font-bold text-xl">&#x2713;</span>
+                            **Localized Sizing Charts:** Adapting fits and ranges for the Indian demographic.
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-red-500 mr-2 font-bold text-xl">&#x2713;</span>
+                            **Seasonal Trend Integration:** Mapping collections to Indian festivals and climate cycles.
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-red-500 mr-2 font-bold text-xl">&#x2713;</span>
+                            **Omnichannel Strategy:** Balancing flagship retail, e-commerce, and multi-brand outlets.
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-red-500 mr-2 font-bold text-xl">&#x2713;</span>
+                            **Reverse Logistics:** Efficient handling of returns and exchanges crucial for online apparel success.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Generic Services Section (Re-styled for color consistency) -->
+    <section id="services" class="py-16 sm:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-12">
+                The GITAB Advantage: Strategic Pillars
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Pillar 1: Legal & Compliance -->
+                <div class="bg-white p-6 rounded-xl shadow-custom card-hover transition duration-300 border-t-4 border-primary">
+                    <h3 class="text-xl font-bold text-primary mb-3">Regulatory Expertise</h3>
+                    <p class="text-gray-600">Full legal compliance, customs clearance, and navigating import duties—we minimize risk and ensure smooth market entry.</p>
+                </div>
+
+                <!-- Pillar 2: Consumer Insight -->
+                <div class="bg-white p-6 rounded-xl shadow-custom card-hover transition duration-300 border-t-4 border-primary">
+                    <h3 class="text-xl font-bold text-primary mb-3">Hyper-Local Marketing</h3>
+                    <p class="text-gray-600">Data-driven strategies that identify key regional influencers and channels to create maximum brand resonance and trust.</p>
+                </div>
+
+                <!-- Pillar 3: Operational Setup -->
+                <div class="bg-white p-6 rounded-xl shadow-custom card-hover transition duration-300 border-t-4 border-primary">
+                    <h3 class="text-xl font-bold text-primary mb-3">Scalable Operations</h3>
+                    <p class="text-gray-600">Setting up local warehousing, optimizing supply chain costs, and establishing a responsive customer support infrastructure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action / Contact Section -->
+    <section id="contact" class="py-16 sm:py-24 bg-gray-900 text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-5xl font-extrabold">Ready to Wear & Taste Success?</h2>
+            <p class="mt-6 text-xl text-gray-300">
+                Stop waiting for the right moment. The GITAB Global team is ready to craft your bespoke market entry strategy for the Indian Food or Apparel sector.
+            </p>
+            <div class="mt-10">
+                <a href="mailto:contact@gitabglobal.com" class="px-10 py-4 bg-accent text-gray-900 font-extrabold text-lg rounded-full transition duration-300 transform hover:scale-105 hover:bg-yellow-400 shadow-xl">
+                    Schedule Your Consultation
+                </a>
+                <p class="mt-4 text-sm text-gray-400">
+                    We guarantee a response within one business day.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left sm:flex justify-between items-center">
+            <p>&copy; 2025 GITAB Global. Your Partner for Indian Market Success.</p>
+            <div class="mt-4 sm:mt-0 space-x-6 text-sm">
+                <a href="#" class="hover:text-white">India Market Insights</a>
+                <a href="#" class="hover:text-white">Team</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
